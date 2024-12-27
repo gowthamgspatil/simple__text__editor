@@ -105,3 +105,66 @@ Error Handling:
                      if __name__ == '__main__':
                          main()
 
+
+
+
+
+::::::::Output:::::::::
+
+
+
+1. Program Start:
+   
+   Enter the filename to open or create: 
+   
+   (User inputs: `example.txt`)
+
+2. **File Check:**
+   - If `example.txt` exists, it reads and displays the content.
+   - If it doesn't exist, it creates an empty file and proceeds to get user input.
+
+   Example Output if the file exists:
+
+   This is the existing content of the file.
+
+   Example Output if the file does not exist:
+   (Nothing is displayed as the file is empty.)
+
+3. User Input Prompt:
+   
+   Enter your text (type SAVE on a new line to save and exit):
+   
+   (User inputs the following lines:)
+   
+   This is the first line.
+   This is the second line.
+   SAVE
+   
+
+4. File Save Confirmation:
+   
+   example.txt saved.
+
+
+ Error Scenarios:
+- If the file cannot be opened or created (e.g., due to insufficient permissions), the output is:
+  
+  example.txt could not be opened.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
