@@ -1,4 +1,4 @@
-This code implements a simple text editor using Python that works through the command line. Here’s a theoretical explanation of the code:
+This code implements a simple text editor using Python that works through the command line.
 
 1. **File Operations**:
    - The `read_file` function reads the content of a file and returns it.
